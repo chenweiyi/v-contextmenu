@@ -102,6 +102,7 @@
       },
       handleReferenceContextmenu (event) {
         event.preventDefault()
+        event.stopPropagation()
 
         if (this.disabled) return
 
